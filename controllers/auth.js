@@ -100,7 +100,7 @@ module.exports.postLogin = async (req, res, next) => {
       message: "LoggedIn Successfully",
       token: accessToken,
       tokenExpiresAt: Date.now() + 300000,
-      refreshToken: refreshToken,
+      refreshToken: refreshToken.refreshToken,
       username: user.username,
     });
   } catch (err) {
