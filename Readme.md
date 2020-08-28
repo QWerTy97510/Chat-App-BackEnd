@@ -12,6 +12,6 @@ RestAPI creat pentru a servi drept back-end pentru aplicatia Chat-App
 ### Body-Parser
 ### Cors
 ### Express-Validator
-### JSonwebtoken
+### Jsonwebtoken
 ### Mongoose 
 ### Socket.io
